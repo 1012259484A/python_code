@@ -20,7 +20,8 @@ class Test_lonin:
         danji = driver.find_element(By.XPATH,'//*[@id="app"]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/button')
         #使用JS代码操作
         driver.execute_script('arguments[0].click()',danji)
-        time.sleep(3)
+        time.sleep(100)
+        cc = "111"
 
 
     def test_ceshi_04(self):
